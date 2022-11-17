@@ -13,10 +13,11 @@ body {
 }
 
 .wrapper {
+    width: 100%
     margin: 0 auto;
     text-align: center;
     padding: 80px 20px 40px 20px;
-    max-width: 1440px;
+    min-width: 400px;
 }
 
 h1 {
