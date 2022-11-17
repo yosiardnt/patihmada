@@ -1,0 +1,17 @@
+{
+	"name": "comics",
+	"alias": ["patihmada.netlify.app"],
+	"version": 2,
+	"routes": [
+        {
+			"src": "index.html",
+			"status": 301,
+			"headers": { "Location": "/amangkubumi" }
+		},
+		{
+			"src": "/",
+			"status": 301,
+			"headers": { "Location": "/amangkubumi" }
+		}
+	]
+}
